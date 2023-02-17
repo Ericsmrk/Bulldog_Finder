@@ -36,7 +36,7 @@ IP -> In Progress
 ## Overall Description
 ### 2.1 Product Overview
 
-<!-- ![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Larger_System.png) -->
+![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Larger_System.png)
 
 ### 2.2 Functional Requirement Overview
 <!-- ![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/DFD0.PNG)This product functionality overview section provides the hierarchy of the systems functional requirements the software must perform or must be present for the user to carry out the specific use case. These functional requirements are components within the Data Flow Diagram (highest level) shown above. More design details and UML diagrams for each requirement will be provided in Section 3; only a high-level summary is available here.  
