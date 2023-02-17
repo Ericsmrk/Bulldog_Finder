@@ -16,22 +16,25 @@
 
 ## 1. Introduction
 ### 1.1 Purpose 
-
+The purpose of this product is to provide a college-oriented roommate and housing finder module within the Fresno State Mobile App (FSMA). This module allows Fresno State students to create an account, advertise open rooms, or seek a student housing rental. The module is to have a scope that provides the different added functionalities relevant to housing searches. While the requirements specified in this document are only for a single module in the FSMA, the developers must remember that the functionality is part of a more extensive mobile application. 
 ### 1.2 Product Scope
-
+The Hub of Digital Transformation and Innovation (DXIHub) has always aimed to promote diversity and inclusivity among the student population at Fresno State. This module aims to provide the same benefits, objectives, and goals found within the FSMA that meet the vision and mission of the DXIHub. Read more about the vision and scope document for the DXIHub here: http://one.dx.fresnostate.edu   
 ### 1.3 Intended Audience
-This document will be helpful to the clients and developers involved with developing and maintaining the Bulldog Finder Module on the Fresno State App. It will provide a roadmap for the development team to follow when implementing the product's features. This System Requirements document looks into the development process for stakeholders and other relevant parties. 
+This document will be helpful to the clients and developers involved with developing and maintaining the BFM on the FSMA. It will provide a roadmap for the development team to follow when implementing the product's features. This System Requirements document looks into the development process for stakeholders and other relevant parties. 
 ### 1.4 Document Conventions
 This document will be submitted as a deliverable for a project submission in a college-level software engineering course. There are sections that are pertaining to the software design including the functionality and timeline of the finished product.  
 The Functional Requirement Overview in section 2.2 provides a hierarchy of specific functional requirements that are either at the highest level or are dependant on other requirements being implemented first. All requirements that aren't a part of the final proof of concept submission are labeled IP. In section 3.2, there is more information on each requirement.  
 ### 1.5 Glossary of Terms
+BFM -> Bulldog Finder Module  
+FSMA -> Fresno State Mobile App  
+DXIHub -> Hub of Digital Transformation and Innovation  
 DFD -> Data Flow Diagram  
 FR -> Functional Requirement  
 NFR -> Non-Functional Requirement  
 UML -> Unified Modeling Language  
 DB -> DataBase  
-TBD -> To Be Determined
-IP -> In Progress
+TBD -> To Be Determined  
+IP -> In Progress  
 
 ## Overall Description
 ### 2.1 Product Overview

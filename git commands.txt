@@ -3,3 +3,15 @@ git add .
 git status
 git commit -m "Added functional requirements overview"
 git push
+
+USING GIT IN TERMINAL OF VSCODE
+using vscode terminal to git push/pull  (https://guides.codepath.com/ios/Using-Git-with-Terminal)
+(install git)
+..to push
+> git add .   <-- this says to add all your files with changes
+> git status  <-- this will tell you what youve changed.
+> git commit -m "using the terminal" <-- commit your changes with usefull note
+> git push    <-- push changes to your fork of the project
+
+..to pull 
+> git pull will grab your stuff
