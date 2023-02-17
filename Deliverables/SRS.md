@@ -10,7 +10,7 @@
 | Eric Smrkovsky | Jedi Scrum Master |  
 | insert name | insert title |
 | insert name | insert title |
-| insert name | insert title |
+| Brandon Huynh | Back-End Developer |
 | insert name | insert title |
 | insert name | insert title |
 
