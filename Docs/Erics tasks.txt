@@ -1,0 +1,16 @@
+
+
+
+
+
+2/23
+0. Standup 2 doc https://docs.google.com/document/d/1xhpn7r5WlyKj-UIXkh3hLrPb5SwlDGVcBeYE1uossMk/edit?usp=sharing
+1. added quick links 
+2. added links to gira ...
+3. Github integration: https://marketplace.atlassian.com/apps/1219592/github-for-jira?tab=overview&hosting=cloud
+4. How to reference issues when working: https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/
+5. everyone add this for working with confluence: https://id.atlassian.com/invite/p/confluence?id=YTHNAGwiS5ONvOFyiklXaQ
+6. Share docs section with team: https://team1csci152.atlassian.net/wiki/spaces/SD/pages/65630/Sprint+2+Planning+Meeting?atlOrigin=eyJpIjoiNTBmMWI2OWVhN2U3NGQyMWJiNDJmNTJlMmQ3YjNhMWIiLCJwIjoiYyJ9
+7. Added learning task to show team github integration. https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/
+8. added instructions for using git with gira to docs folder
+
