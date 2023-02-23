@@ -1,0 +1,32 @@
+---- regular commit
+git pull  
+git add . 
+git status
+git commit -m "Added functional requirements overview"
+git push
+
+---- check out a branch --> do stuff --> use jira
+must have a cloned repo?                                (TM-57=gira tag)
+first step is to check out branch on gira (i checked out TM-57-Docs-SRS)
+> git checkout -b TM-57-Docs-SRS          (TM-57-Docs-SRS=branch name)
+> git add . 
+> git commit -m "TM-57 message"
+> git push --set-upstream origin TM-57-Docs-SRS 
+(this sets upstream caus no upstream on new branch)(upstream is head) 
+> git checkout -f main  (goes back to having main branch as head)
+> git pull   (now updates main since you are back in main branch)
+
+
+
+
+USING GIT IN TERMINAL OF VSCODE
+using vscode terminal to git push/pull  (https://guides.codepath.com/ios/Using-Git-with-Terminal)
+(install git)
+..to push
+> git add .   <-- this says to add all your files with changes
+> git status  <-- this will tell you what youve changed.
+> git commit -m "using the terminal" <-- commit your changes with usefull note
+> git push    <-- push changes to your fork of the project
+
+..to pull 
+> git pull will grab your stuff
