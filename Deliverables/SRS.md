@@ -38,6 +38,9 @@ DB -> DataBase
 TBD -> To Be Determined  
 IP -> In Progress  
 
+## UML
+![Low fidelity (static)  prototype based on the user diagram](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Low Fidelity Prototype.png)
+
 ## Overall Description
 ### 2.1 Product Overview
 
