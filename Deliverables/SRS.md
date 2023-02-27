@@ -14,7 +14,7 @@
 | insert name | insert title |
 | Renato Torres | Front-End Developer |
 | Juan Martinez | Back-End Developer |
-| insert name | insert title |
+| Brandon Huynh | Back-End Developer |
 
 ## 1. Introduction
 ### 1.1 Purpose 
