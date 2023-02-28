@@ -10,7 +10,7 @@
 | Team Member | Role | 
 | -- | -- | 
 | Eric Smrkovsky | Jedi Scrum Master |  
-| insert name | insert title |
+| Maria Guimaraes Diniz Tomaz | Product Owner |
 | insert name | insert title |
 | Renato Torres | Front-End Developer |
 | Juan Martinez | Back-End Developer |
