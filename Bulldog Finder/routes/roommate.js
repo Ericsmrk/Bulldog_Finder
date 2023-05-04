@@ -18,6 +18,8 @@ var storage = multer.diskStorage({
 })
 var upload = multer({ storage: storage })
 
+var router = express.Router()
+
 //Roomies Form Page
 router.get("/new", async (req,res)=> {
     //JSON Template
