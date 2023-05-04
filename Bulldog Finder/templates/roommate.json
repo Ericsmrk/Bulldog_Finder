@@ -1,0 +1,22 @@
+{
+    "elementType": "contentCard",
+    "shadow": "tight",
+    "size": "small",
+    "backgroundColor": "#808080",
+    "borderRadius": "medium",
+    "image": {
+        "url": "https://previews.123rf.com/images/olegdudko/olegdudko1508/olegdudko150800025/43151037-high-school-student-university-student.jpg",
+        "alt": "",
+        "enableProxy": true
+    },
+    "imageStyle": "heroLarge",
+    "imageHorizontalPosition": "left",
+    "label": "",
+    "title": "Jane Doe",
+    "titleTextColor": "#ffffff",
+    "description": "<br> Age          : <br> Graduation Year: <br> Major: ",
+    "descriptionTextColor": "#ffffff",
+    "link": {
+        "relativePath": ""
+    }
+}

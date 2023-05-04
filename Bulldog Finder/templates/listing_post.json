@@ -1,0 +1,16 @@
+{
+    "elementType": "contentCard",
+    "shadow": "tight",
+    "borderRadius":"xloose",
+    "imageStyle": "fullbleedGradient",
+    "label":"$700/month",
+    "title": "555 Bulldog Ave",
+    "description":"1 Room, 1 Bath, and Balcony <br> Distance: <b> 7 mi </b> Property Type: <b> Apartment </b> Availability: <b> May 12th, 2025</b>",
+    "image": {
+        "url": "http://44.214.240.254:3000/pfp",
+        "enableProxy": true
+    },
+    "link": {
+      "relativePath": "./user_form"
+    }
+}

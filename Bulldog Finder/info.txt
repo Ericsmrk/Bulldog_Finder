@@ -1,0 +1,68 @@
+//Login into MySQL Database
+mysql -u frodo -p
+MyNewPass1!
+
+//MySQL Commands
+use BulldogFinderDB;
+show tables;
+
+select * from chat; 
+
+select * from listing;
+select list_id,user_id,title,price,distance,image from listing;
+
+select * from roommate;
+
+select * from users;
+select id,email,password,name,age,major,class_level,personality from users;
+
+//Running server
+node server.js
+
+//pm2 Commands
+pm2 start server.js
+pm2 stop "server"
+pm2 list
+pm2 logs
+
+//Kill the process
+lsof -i tcp:3000
+kill -9 <PID>
+
+
+http://44.214.240.254:3000/
+{API Name}
+
+ALTER TABLE users
+  ADD image varchar(100)
+    AFTER personality,
+
+    update users set personality = 'Blue' where id = 23
+    select id,email,password,name,age,major,class_level,personality,image from users;
+    update users set name = 'Elif Bayrak' where id = 23
+
+    select name,about_me from users;
+
+
+searching
+
+view/edit listing/roomies post
+when viewing your own post, say edit instead
+
+
+SELECT distinct sender_id from chat where (reciever_id = 19 || sender_id = 19);
+
+SELECT distinct reciever_id from chat where (reciever_id = 19 || sender_id = 19)
+
+SELECT distinct reciever_id as id from chat where (reciever_id = 19 || sender_id = 19) union SELECT distinct sender_id from chat where (reciever_id = 19 || sender_id = 19);
+
+
+import express from 'express'
+import * as query from '../query.js'
+import NPoint from 'npoint'
+import * as fs from 'fs';
+
+var router = express.Router()
+
+
+export default router

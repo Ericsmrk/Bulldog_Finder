@@ -1,0 +1,27 @@
+{
+    "elementType": "nameTag",
+    "id": "custom_style",
+    "nameTagStyle": "horizontal",
+    "name": "Jane Doe",
+    "nameFontSize": "large",
+    "nameFontWeight": "bold",
+    "description": "I heard that you have a room open!",
+    "imageHeight": "large",
+    "imageWidth": "large",
+    "imageBorderRadius": "medium",
+    "image": {
+        "url": "https://source.unsplash.com/i2hoD-C2RUA",
+        "alt": "",
+        "enableProxy": true
+
+    },
+    "accessoryButton": {
+        "actionStyle": "emphasized",
+        "title": "",
+        "borderRadius": "full",
+        "accessoryIcon":"dropright",
+        "link": {
+            "relativePath": ""
+        }
+    }
+}
