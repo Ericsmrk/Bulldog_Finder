@@ -59,7 +59,7 @@ router.post("/:id", upload.single('photo'), async (req,res)=> {
     let title = req.body.title
     let desc = req.body.description
     let distance = req.body.distance
-    let price = req.body.distance
+    let price = req.body.price
     let image = req.file.filename
 
     //Update listing with new data
