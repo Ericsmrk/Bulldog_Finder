@@ -59,6 +59,9 @@ router.get("", async (req,res)=> {
         //Insert listing post into JSON
         json.content[2].tabs[0].content[1].items.push(post)
     }
+    
+    //Reverse the Order of array to show most recent posts first
+    json.content[2].tabs[0].content[1].items.reverse()
 
     //Get roommate post data from database
     let user_data = await query.getRMlist()
@@ -81,6 +84,9 @@ router.get("", async (req,res)=> {
             
     }
 
+    //Reverse the Order of array to show most recent posts first
+    json.content[2].tabs[1].content[1].items.reverse()
+    
     //Send completed JSON
     res.send(json)
 })
