@@ -52,6 +52,9 @@ router.get("", async (req,res)=> {
         json.content[1].content.push(post)
     }
 
+    //Reverse the Order of array to show most recent chats first
+    json.content[1].content.reverse()
+    
     //Send completed json
     res.send(json);
 })
