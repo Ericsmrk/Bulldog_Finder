@@ -1,4 +1,4 @@
-![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/8343af7e-4ed4-4254-aa95-eb9eb96fd277)!!!
+
 
 # Software Engineering: Bulldog Finder Module on the Fresno State App
 # System Requirements Specifications Document
