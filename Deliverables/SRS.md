@@ -1,4 +1,4 @@
-!!!
+![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/8343af7e-4ed4-4254-aa95-eb9eb96fd277)!!!
 
 # Software Engineering: Bulldog Finder Module on the Fresno State App
 # System Requirements Specifications Document
@@ -49,11 +49,50 @@ IP -> In Progress
 ### 2.2 Functional Requirement Overview
 This product functionality overview section provides the hierarchy of the systems functional requirements the software must perform or must be present for the user to carry out the specific use case. These functional requirements are components within the Data Flow Diagram (highest level) shown above. More design details and UML diagrams for each requirement will be provided in Section 3; only a high-level summary is available here.  
 * FR1: Landing Page/ Onboarding
-    * Description: The software must be able to store user account details. 
+    * Description: Starting page to get users started when using application.
+    * Dependency: None
+* FR2: Account Creation
+    * Description: Eligible users must be able to create an account.
     * Dependency: DB
-* FR2: Sign In/ Sign Up
-    * Description: The user must be able to create an account.
-    * Dependency: FR1
+* FR3: Personality Quiz
+    * Description: Users will be prompted to take a personality quiz that will be linked to their profile. Results will be a color and a short description of the personality type.
+    * Dependency: DB, FR2
+* FR4: User Sign In
+    * Description: The user must be able to to sign into registered account.
+    * Dependency: DB
+* FR5: Home Page
+    * Description: A central page to access all of the different pages in the app including housing/roommate posts, profile, and favorites.
+    * Dependency: DB
+* FR6: Housing Listing Creation
+    * Description: Allow users to create housing post that will be displayed on the home page. House listings include information about the room and pictures.
+    * Dependency: DB, FR5
+* FR7: Roommate Listing Creation
+    * Description: Allow users to create roommate post that will be displayed on the home page. House listings include information about the roommate and pictures.
+    * Dependency: DB, FR5
+* FR8: Profile Editing
+    * Description: Allow users to edit their own profiles after creation.
+    * Dependency: DB, FR2
+* FR9: Listing Editing
+    * Description: Allow users to edit any listings they have created.
+    * Dependency: DB, FR6, FR7
+* FR10: In-App Messaging
+    * Description: Allow users to message each other.
+    * Dependency: DB
+* FR11: Inbox
+    * Description: Store mnessages between users.
+    * Dependency: DB, FR10
+* FR12: Favoriting Posts
+    * Description: Allow users to favorite any listing.
+    * Dependency: DB, FR6, FR7
+* FR13: Favorites Page
+    * Description: Displays a specfic users favorite listings.
+    * Dependency: DB, FR5, F12
+* FR14: Area Map
+    * Description: Displays an area map of housing listing's location.
+    * Dependency: DB, FR6
+* FR15: Accessibility Adjustments
+    * Description: Alow users to control accessibility settings such as content, color, and orientation.
+    * Dependency: DB, FR6
 
 
 ### 2.3 Design and Implementation Constraints
