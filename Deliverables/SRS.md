@@ -1,5 +1,3 @@
-
-
 # Software Engineering: Bulldog Finder Module on the Fresno State App
 # System Requirements Specifications Document
 > Version 1.0  
@@ -117,10 +115,18 @@ This product functionality overview section provides the hierarchy of the system
    * The application interface  must be user-friendly and offer intuitive navigation to ensure the user's security.
   
 ### 2.4 Assumptions and Dependencies
-<!-- * The real-time 3D experience uses Networked A-Frame and WebSockets
-* All hardware used can access the internet
-* All hardware used has compatable graphics software
-* Standard wasd-controls are utilized -->
+* Campus Login Authentication: 
+  * Assumption that Google authentication factor (@mail.fresnostate.edu) will  provide a secure and reliable campus login authentication service that can be integrated into the application.
+* Matching Quiz (personality color test):
+  * To help the users to find the most compatible roommate. 
+* User Safety and Privacy: 
+   * Users will behave responsibly and respectfully towards each other, and Bulldogs Finder has policies and procedures in place to address any inappropriate or harmful behavior.
+* User Profile Information Accuracy: 
+   * Users MUST provide accurate and truthful information about themselves in their profiles, including their personalities and preferences.
+* Availability of Third-Party Services: 
+   * Third-party services such as Google Maps API and Google authentication factor (@mail.fresnostate.edu).
+* Developers:
+   * The application must be developed within the scope of resources offered from Modo Labs.
 
 ## 3 Specific Requirements
 <!-- There are three stages to Vr-Chess: Login, preference selection, and gameplay. Below is a general flowchart of the user experience when running the software.
