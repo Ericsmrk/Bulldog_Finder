@@ -160,8 +160,9 @@ This product functionality overview section provides the hierarchy of the system
    * Navigation Bar
      ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/9d561cfa-6048-496b-bf4a-6efbd4548801)
    * Guest Access
-     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/b41fb12e-b3a4-49c1-9ae9-cd000d8f1cc3)
+    ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/0be35bd4-5404-4178-a9dd-97bdde59ac20)
    * Search Preferences
+     
      ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/b9bc159c-ccab-4deb-b35b-6117b87a12e0)
 
 
