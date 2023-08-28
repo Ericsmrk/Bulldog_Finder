@@ -150,7 +150,8 @@ This product functionality overview section provides the hierarchy of the system
    * Style Guide
    ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/d4a01c93-fb3d-46f2-bf0b-0bbeb3667612)
    * Onboarding Process
-     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/9795fa1d-9f15-448b-a24e-0ad0f811aac8)
+    ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/e7b4ebff-b3f5-488c-903a-3d62c285437d)
+
 
 
 ### 3.1.2 Hardware Interfaces
