@@ -47,94 +47,14 @@ IP -> In Progress
 ![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Larger_System.png)
 
 ### 2.2 Functional Requirement Overview
-<!-- ![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/DFD0.PNG)This product functionality overview section provides the hierarchy of the systems functional requirements the software must perform or must be present for the user to carry out the specific use case. These functional requirements are components within the Data Flow Diagram (highest level) shown above. More design details and UML diagrams for each requirement will be provided in Section 3; only a high-level summary is available here.  
-* FR1: Store User Account Details
+This product functionality overview section provides the hierarchy of the systems functional requirements the software must perform or must be present for the user to carry out the specific use case. These functional requirements are components within the Data Flow Diagram (highest level) shown above. More design details and UML diagrams for each requirement will be provided in Section 3; only a high-level summary is available here.  
+* FR1: Landing Page/ Onboarding
     * Description: The software must be able to store user account details. 
     * Dependency: DB
-* FR2: Account Creation
+* FR2: Sign In/ Sign Up
     * Description: The user must be able to create an account.
     * Dependency: FR1
-* FR3: User Login 
-    * Description: The user must be able to log in with a registered account.
-    * Dependency: DB, FR1
-* FR4: Google Authentication 
-    * Description: The software must have the option to use Google Login API.
-    * Dependency: DB
-* FR5: Store Password Securely (IP)
-    * Description: The database must store the password securely.
-    * Dependency: DB, FR3
-* FR6: Multiple Environments
-    * Description: The user must be able to choose from three or more choices for the VR environment.
-    * Dependency: None
-* FR7: Choose Piece Color 
-    * Description: The user must be able to choose from five different piece color options.
-    * Dependency: None
-* FR8: Dynamic Rooms 
-    * Description: The software must allocate resources for a new room when new game is started.
-    * Dependency: None
-* FR9: Dynamic Room Code
-    * Description: The software must assign a room code for other players to join game.
-    * Dependency: FR8
-* FR10: Start VR Scene
-    * Description: The user must be able to start the VR scene.
-    * Dependency: FR3, FR4, FR6, FR7, FR9
-* FR:11 Control Avatar in Virtual Environment
-    * Description: The user must be able to control the user's avatar with functionality for moving forward, backward, left, and right.
-    * Dependency: FR10
-* FR12: Select Seat 
-    * Description: The user must be able to sit virtually at the chess table by selecting black or white.
-    * Dependency: FR10
-* FR13: Choose to be a Spectator
-    * Description: The user must be able to watch other players play in the virtual space.
-    * Dependency: FR11
-* FR14: Board: Preset Positions of Pieces 
-    * Description: The board must have the game pieces present when the user sits at the chess table.
-    * Dependency: FR12
-* FR15: Board Game Logic: King 
-    * Description: King piece logic must be designed to follow standard Chess rules.
-    * Dependency: None
-* FR16: Board Game Logic: Queen 
-    * Description: Queen piece logic must be designed to follow standard Chess rules.
-    * Dependency: None
-* FR17: Board Game Logic: Bishop  
-    * Description: Bishop piece logic must be designed to follow standard Chess rules.
-    * Dependency: None
-* FR18: Board Game Logic: Knight  
-    * Description: Knight piece logic must be designed to follow standard Chess rules.
-    * Dependency: None
-* FR19: Board Game Logic: Pawn  
-    * Description: Pawn piece logic must be designed to follow standard Chess rules.
-    * Dependency: None
-* FR20: Board Game Logic: Rook   
-    * Description: Rook piece logic must be designed to follow standard Chess rules.
-    * Dependency: None
-* FR21: Board: Piece Movement 
-    * Description: The user must be able to move only one of their pieces when it is their turn.
-    * Dependency: FR15-FR20
-* FR22: Board Game Logic: Kill  
-    * Description: The user must be able to make a legal chess kill by standard Chess rules. 
-    * Dependency: FR21
-* FR23: Board: Store Killed Pieces  
-    * Description: The software must place all taken pieces neatly to the user's right on the virtual table.
-    * Dependency: FR22
-* FR24: Board: Red Square Highlight  
-    * Description: When the user selects a piece the square is highlighted red for two seconds.
-    * Dependency: FR21
-* FR25: Board: Green Square Highlight 
-    * Description: When the user drops a piece the square is highlighted blue for two seconds.
-    * Dependency: FR21
-* FR26: Board Game Logic: King Death (IP)
-    * Description: The software must stop chess board piece movement when the death of a King piece occurs.
-    * Dependency: FR22
-* FR27: Board Game Logic: Detect Win (IP)
-    * Description: The software must notify the user when the game has been won.
-    * Dependency: FR26
-* FR28: Board Game Logic: Detect Loss (IP)
-    * Description: The software must notify the user when the game has been lost.
-    * Dependency: FR26
-* FR29: Website Deployment 
-    * Description: The software must be available online.
-    * Dependency: DB -->
+
 
 ### 2.3 Design and Implementation Constraints
 <!-- Certain hardware limitations are present during development due to no financial support for the team to use to purchase VR headsets, VR-ready laptops, and other tools necessary for development with Virtual Reality companants. This means that development for this software will be strictly limited to using packages, frameworks, deployment tools, and hardware that are of the free tier. The software is limited to HTML and JavaScript programming languages and will utilize the A-Frame web framework for Three.js until further notice. All programming must be documented within the code files for easy understanding by developers who might not have seen the code before. The current version of AFrame that must be maintained is version 1.3.0. Other implementation constraints are TBD. The standard for diagrams has been changing over time, but nonetheless, diagrams should utilize UML when possible. -->
