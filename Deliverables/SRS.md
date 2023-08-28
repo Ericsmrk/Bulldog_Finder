@@ -1,4 +1,4 @@
-# Software Engineering: Bulldog Finder Module on the Fresno State App
+![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/a37bb95c-647e-43d1-aee3-ff63cf692809)# Software Engineering: Bulldog Finder Module on the Fresno State App
 # System Requirements Specifications Document
 > Version 1.0  
 > Prepared by Eric Smrkovsky  
@@ -151,6 +151,18 @@ This product functionality overview section provides the hierarchy of the system
    ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/d4a01c93-fb3d-46f2-bf0b-0bbeb3667612)
    * Onboarding Process
     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/e7b4ebff-b3f5-488c-903a-3d62c285437d)
+   * Sign Up Process
+     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/ebfe8e3f-e79e-4a1a-a6a8-4ee4d9d4d33a)
+   * Homepage
+     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/b68b1cc1-9da2-4b46-a596-abdc67c1f5c7)
+   * Listing Details
+     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/2387cfde-3107-4a15-b1c1-74cb03e8f600)
+   * Navigation Bar
+     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/9d561cfa-6048-496b-bf4a-6efbd4548801)
+   * Guest Access
+     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/b41fb12e-b3a4-49c1-9ae9-cd000d8f1cc3)
+   * Search Preferences
+     ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/b9bc159c-ccab-4deb-b35b-6117b87a12e0)
 
 
 
