@@ -97,7 +97,26 @@ This product functionality overview section provides the hierarchy of the system
 
 ### 2.3 Design and Implementation Constraints
 <!-- Certain hardware limitations are present during development due to no financial support for the team to use to purchase VR headsets, VR-ready laptops, and other tools necessary for development with Virtual Reality companants. This means that development for this software will be strictly limited to using packages, frameworks, deployment tools, and hardware that are of the free tier. The software is limited to HTML and JavaScript programming languages and will utilize the A-Frame web framework for Three.js until further notice. All programming must be documented within the code files for easy understanding by developers who might not have seen the code before. The current version of AFrame that must be maintained is version 1.3.0. Other implementation constraints are TBD. The standard for diagrams has been changing over time, but nonetheless, diagrams should utilize UML when possible. -->
-
+* Operating Environment: 
+   * The application must be compatible with both iOS and Android operating environments.
+   * The application must be responsible and run in most web browsers.
+* Security:
+   * The app must be designed to ensure data privacy and security for user information and interactions.
+   * The app must allow user to report inappropriate conduct of other users
+* Integration: 
+   * Modo Lab as the main system to build the application. The application must integrate with third-party services such Google, Google Maps API
+   * Modo Lab
+      * IDE: Allows to write, test and debug code
+      * SDK: Tools, libraries and APIs
+      * Backend: Cloud based services
+      * Preview: Allows to preview the application before deployment
+      * UI | Drag-and-drop: Use prebuilt components and templates do design the interface
+   * Programming Languages: Node.js, Express as the frameworks.
+   * Cloud: AWS, Amazon EC2
+   * Database: MySQL
+* User Experience and Performance:
+   *The application interface  must be user-friendly and offer intuitive navigation to ensure the user's security.
+  
 ### 2.4 Assumptions and Dependencies
 <!-- * The real-time 3D experience uses Networked A-Frame and WebSockets
 * All hardware used can access the internet
