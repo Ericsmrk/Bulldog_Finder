@@ -217,8 +217,8 @@ See Section 4. It will Describe Screen Usage.
 See SDD
 * Entity Relationship Diagram
 
-  ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/5f67684b-2106-441a-8ce0-874bfdabc73c)
-  
+  ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/1371707a-b7a1-4d94-b2e6-71617dcc916d)
+
 * Deployment Diagram
 
 ![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Deployment%20Diagram.png)
