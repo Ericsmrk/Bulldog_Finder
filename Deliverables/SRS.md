@@ -1,4 +1,4 @@
-![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/a37bb95c-647e-43d1-aee3-ff63cf692809)# Software Engineering: Bulldog Finder Module on the Fresno State App
+# Software Engineering: Bulldog Finder Module on the Fresno State App
 # System Requirements Specifications Document
 > Version 1.0  
 > Prepared by Eric Smrkovsky  
@@ -180,80 +180,48 @@ This product functionality overview section provides the hierarchy of the system
      ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/b9bc159c-ccab-4deb-b35b-6117b87a12e0)
 
 
+### 3.1.2 Use Cases/User Function
+See Section 4. It will Describe Screen Usage. 
 
-### 3.1.2 Hardware Interfaces
-<!-- The hardware needed for using the VR-Chess software includes all modern personal computers, laptops, tablets, and mobile devices. This version of VR-Chess uses semi-immersive VR; implementation for VR-Headsets will be implemented in a future version and must be accessible by all modern VR headsets such as the Meta Oculus. -->
-### 3.1.3 Software Interfaces
-<!-- Implementation constraints for Vr-Chess include using Networked A-Frame. Networked A-Frame is a library for creating multi-user, real-time 3D experiences using WebVR and the A-Frame web framework. Networked A-Frame utilizes EasyRTC and WebSockets to provide an easy way to create real-time, multi-user experiences. Accessing EasyRTC abstracts away the complexities of setting up WebSockets and provides an API to send messages between VR-Chess users easily, such as moves made by each player. This allows users to play the game in real-time, communicating each action to the other player's clients. The library also provides an API to easily synchronize the game state between users, ensuring that each user sees the same game board.
+### 3.2 Hardware Interfaces
+* Mobile Devices
+  * The app must be designed to run on mobile devices such as smartphones and tablets, with various screen sizes and resolutions.
+* Internet Connection
+   * The app must require an internet connection to access and update data from the server.
 
-Websockets provide a way for users to communicate with each other in real time using the same protocol as HTTP. This provides bi-directional communication, meaning that data will be sent from both the client and the server. This feature makes Websockets ideal for real-time applications such as VR-Chess.
+### 3.3 Software Interfaces
+* Modo Lab
+   * The app must be built using Modo Lab's low-code platform, which allows for easy development and customization of the app's features and  
+* Frameworks
+   * Node.js (JavaScript) to create CRUD Restful endpoints (Create, Read, update and Delete)
+* JSON
+   * The app must use JSON files to store and retrieve data from the server.
+* AWS
+   * The app will be using an AWS instance to run a virtual machine that will host a MySQL database to store JSON files and API endpoints.
+ 
+### 3.4 Functional Requirements
+* Login Authentication
+   * The app must use the google authentication system to verify and authenticate user credentials (@mail.fresnostate.edu)
+* Create Profile
+   * The app must allow users to create a profile with the required information such as name, age, gender, major, graduation year, personality, budget, and bio.
+* Finder
+   * The app must have a home screen that allows users to discover housing and roommate listings based on various filters such as major, personality, age, graduation year, location, and keywords.
+* Roommates
+   * The app must allow users to view roommate profiles, message potential roommates, and manage their own roommate listing.
+* Listings
+   * The app must allow users to view housing and roommate listings, view profiles, and send messages to potential roommates.
+* My Listings
+   * The app must allow users to manage their own housing and roommate listings, including availability, number of roommates, type of room, and other details.
+  
+### 3.5 Database
+See SDD
+* Entity Relationship Diagram
 
-Other implementation constraints include using MongoDB for the database and Horoku for deployment. MongoDB utilizes NoSQL and is document oriented so a database schema is not required for implementation. Horoku is a platform the allows VR-Chess to operate entirely in the cloud. -->
+  ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/5f67684b-2106-441a-8ce0-874bfdabc73c)
+  
+* Deployment Diagram
 
-### 3.2 Functional Requirements
-<!-- * FR1: Store User Account Details  
-The software must have a working database that can be accessed securely on the server to store information about the user.
-* FR2: Account Creation  
-The user must be able to register a VR-Chess account. On the landing page, the user must have a button to click that brings them to the login page. Once at the login page, the user can choose to register an account. In order for the user to register, they must create a unique username and a unique password. To be considered unique, these must be at lease 8 characters long and not present in the database already.
-* FR3: User Login  
-The user must be able to access the VR-Chess game through the login page by entering their email and their password correctly. If entered correctly the user is taken back to the landing page. If entered incorrectly, the user is shown an error. 
-* FR4: Google Authentication  
-The user must be able to access the VR-Chess game through the Google Authentication. Once the Google login method is shown, the user is given an option to choose a google account. Once the account is chosen, the user is returned to the landing page. If the user is already logged in with a Google account, this process is done automatically.
-* FR5: Store Password Securely (IP)  
-The password must be stored in the database securely. This can be done with a hashing algorithm.
-* FR6: Multiple Environments  
-The user must have the ability to choose from a selection of enviroments for gameplay. The required environments are: Woods, Checker, Waves, and Volcano.
-* FR7: Choose Piece Color   
-The user must have the ability to choose from a selection of piece colors for gameplay. The required piece colors are left to the developer's descretion.
-* FR8: Dynamic Rooms   
-The software must create rooms dynamically when users request a room.
-* FR9: Dynamic Room Code  
-The software must provide the option to select a room by entering a code. This is done on the landing page. The user enters the landing page and enters the room number in the room number bar input line.
-* FR10: Start VR Scene  
-The software will start a VR scene when prompted by the user. This is done after the user selects their preferences and logs in.
-* FR:11 Control Avatar in Virtual Environment  
-The user must be given the ability to move around in the virtual space freely if and only if they are in spectator mode. This is done with the arrow buttons and with standard wasd-controls.
-* FR12: Select Seat   
-When the user enters the scene, they are prompted to select either the white pieces, the black pieces if they are going to be a player.
-* FR13: Choose to be a Spectator  
-When the user enters the scene, they are given the option to become a spectator rather than a player.
-* FR14: Board: Preset Positions of Pieces  
-When the game is started, all of the pieces are in the correct positions on the board.
-* FR15: Board Game Logic: King  
-A King piece can only make moves that are valid moves according to standard Chess rules. This includes not moving off the board or moving onto an occupied space. If the King cannot move and it is in check, the game is over. If the King is put into check, it must move to a space that takes it out of check.
-* FR16: Board Game Logic: Queen  
-A Queen piece can only make moves that are valid moves according to standard Chess rules. This includes not moving off the board or moving onto an occupied space.
-* FR17: Board Game Logic: Bishop  
-A Bishop piece can only make moves that are valid moves according to standard Chess rules. This includes not moving off the board or moving onto an occupied space.
-* FR18: Board Game Logic: Knight  
-A Knight piece can only make moves that are valid moves according to standard Chess rules. This includes not moving off the board or moving onto an occupied space.
-* FR19: Board Game Logic: Pawn  
-A Pawn piece can only make moves that are valid moves according to standard Chess rules. This includes not moving off the board or moving onto an occupied space.
-* FR20: Board Game Logic: Rook   
-A Rook piece can only make moves that are valid moves according to standard Chess rules. This includes not moving off the board or moving onto an occupied space.
-* FR21: Board: Piece Movement  
-The user cannot move pieces that are not theirs. They can only move the pieces that they selected at the start of the game.
-* FR22: Board Game Logic: Kill  
-A player can kill another piece when they make a legal move to a square that is occupied by another by the opponents piece. This can only occur when it is the players turn.
-* FR23: Board: Store Killed Pieces  
-After making a legal kill on the Chess board, the taken piec is places to the left of the player.
-* FR24: Board: Red Square Highlight  
-When a piece is selected, the square that the piece was on turns the color red until the player releases the piece.
-* FR25: Board: Green Square Highlight  
-When a piece is selected, the square that the piece is moved too turns the color Green when the player releases the piece.
-* FR26: Board Game Logic: King Death (IP)  
-When the King is put into checkmate, the software presents the user with information about who won the game.
-* FR27: Board Game Logic: Detect Win (IP)  
-Information about winning the game is displayed to the user.
-* FR28: Board Game Logic: Detect Loss (IP)  
-Information about losing the game is displayed to the user.
-* FR29: Website Deployment  
-The website is deployed to the cloud using Horoku.  
-### 3.3 UML Diagrams
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Login_Sequence_diagram.png)
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/System_Use_case.png) -->
-
-### 3.4 Database
+![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Deployment%20Diagram.png)
 <!-- The database used is MongoDB and Mongoose is used for data transfer. The only table to be stored is the users information. Here is a high level diagram showing how that database interacts with the cloud deployment.
 ![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/DeploymentwithDB.png) -->
 ## 4 Non-Functional Requirements
