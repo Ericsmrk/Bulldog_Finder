@@ -217,13 +217,13 @@ See Section 4. It will Describe Screen Usage.
 See SDD
 * Entity Relationship Diagram
 
-  ![image](https://github.com/Ericsmrk/Bulldog_Finder/assets/103905844/1371707a-b7a1-4d94-b2e6-71617dcc916d)
+![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/ER%20Diagram.png)
 
 * Deployment Diagram
 
 ![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Deployment%20Diagram.png)
-<!-- The database used is MongoDB and Mongoose is used for data transfer. The only table to be stored is the users information. Here is a high level diagram showing how that database interacts with the cloud deployment.
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/DeploymentwithDB.png) -->
+
+
 ## 4 Non-Functional Requirements
 ### 4.1 Performance Requirements
 <!-- The performance requirements for VR-Chess relate to the user experiencing any lag when running the software. Care should be taken by the implementation team to make sure the code performs at a rate that will prevent any lag between processes. -->
