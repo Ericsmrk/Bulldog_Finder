@@ -223,13 +223,102 @@ See SDD
 
 ![](https://github.com/Ericsmrk/Bulldog_Finder/blob/main/images/Deployment%20Diagram.png)
 
+## 4 System Features
+* 4.1 Onboarding
+   * Landing page will introduce user and will direct them to sign in or sign up
+* 4.2  Sign In
+   * Users will login with email and password and/or will utilize Google authentication factor (@mail.fresnostate.edu) and will be directed to the Welcome Screen.
+   * Forgot Password option to request a new password.
+   * Option to continue as Guest	
+   * Sign Up option
+   * 4.3 Sign Up
+   * Input user’s name, email, and password for account creation. This will additionally utilize the Google authentication factor (@mail.fresnostate.edu) 
+   * Option to navigate back to the Sign In Screen
+   * After Account is verified user will be directed to Sign In (4.2) to Log in and will directed after the login to the Welcome screen
+* 4.4  Welcome Screen
+   * 4.4.1 Fresno State Student 
+      * Provide relevant information about the application and will direct the user to the following steps.
+      * Get started button will direct the user to the Create Profile screen.
+* 4.5 Create Profile
+   * Upload profile picture
+   * Input DOB in mm/dd/yyyy format
+   * Gender (drop down list)
+   * Major (drop down list with all currently Fresno State majors)
+   * Next button will direct the user to the About Yourself screen.
+* 4.6 More relevant information (About Yourself )
+   * Input any bio information
+   * Preferences
+   * Interests
+   * Button to take personality test
+   * Skip personality test button
+   * Next button will direct the user to the Personality test screen.
+* 4.7 Personality (Matching Quiz)
+   * Presents the user with 7 questions with 4 possible answers each. 
+   * See results button will direct the user to the result page 
+   * After the result page user will be directed to the Finder (5.8)
+* 4.8 HomePage (Finder)
+   * Search Bar 
+   * Housing / Roomies / My Listing buttons
+   * Cards with main information about listing or roomies
+   * Housing Cards information: Listing Description, User picture, Distance (miles), availability, Property type (apartment, house etc.), Rent $.
+   * Roomies cards information: User Picture, Name, Age, Move In date, budget, Major.
+   * Cards will have a favorite and report button
+* 4.9 Favorites
+   * Housing / Roomies buttons
+   * Favorite cards view
+* 4.10 Message
+   * Inbox: List view of messages that display user picture and name
+   * Able to click in the messages of the list and open a chat screen with conversation
+   * Option to block the user and report
+* 4.11 Profile
+   * Profile view: able to update, delete, insert personal information (Major, Graduation Year, Picture, Bio, Budget, Move In date, Preferences, interests) .
+   * Settings icon on the upper right with following options:
+   * Take or Redo Matching Quiz
+   * Privacy: 
+   * Who can view your profile: Gender (dropdown), Age (Slider), Personality (checkbox options: green, orange, gold or blue) 
+   * Blocked: View of user card blocked
+   * Support: How to use the app / Documentation
+   * About: About the application and Developers / Sponsors
+* 5.12 Search bar
+   * Present in Guest and Fresno State Student
+   * Search by keywords: Major, Graduation Year
+   * Location (Miles): 1-15+ miles - Slider control
+   * Personality: (checkbox options: green, orange, gold or blue) 
+   * Age: 17 - 30+ - Slider Control
+   * Budget: 0 - 900+ - Slider Control 
+* 4.13 Listing Details
+   * Present in Guest and Fresno State Student
+   * Title
+   * Card with pictures and pagination dots.
+   * User card with picture, name and age
+   * Property Description
+   * Amenities list (Parking, Wifi, Elevator etc)S
+   * Radius Map that show the property area and miles from the school 
+* 4.14 Profile Details
+   * Present in Guest and Fresno State Student
+   * Card with major, Graduation Year, Picture, Bio, Budget, Move In date
+   * Biography
+   * Preferences (Smoking or no-smoking, pet-friendly, cleanness, quiet, loud, early morning, night)
+   * Interests (Sports, Fitness, Outdoor activities, Travel, Food, Music, Arts and culture, Gaming, Technology)
+* 4.15 Guest
+   * HomePage (Finder)
+   * Search Bar 
+   * Housing / Roomies 
+   * Cards with main information about listing or roomies
+   * Housing Cards information: Listing Description, User picture, Distance (miles), availability, Property type (apartment, house etc.), Rent $.
+   * Roomies cards information: User Picture, Name, Age, Move In date, budget, Major.
+* 4.16 Accessibility Adjustments
+   * Content Adjustment
+   * Color Adjustment
+   * Orientation Adjustments 
 
-## 4 Non-Functional Requirements
-### 4.1 Performance Requirements
+
+## 5 Non-Functional Requirements
+### 5.1 Performance Requirements
 <!-- The performance requirements for VR-Chess relate to the user experiencing any lag when running the software. Care should be taken by the implementation team to make sure the code performs at a rate that will prevent any lag between processes. -->
-### 4.2 Safety Requirements
+### 5.2 Safety Requirements
 <!-- A notice should be displayed to the user before entering VR about the dangers with epileptic seizures. The user must be notified that the use of the software is at the users own risk.  -->
-### 4.3 Security Requirements
+### 5.3 Security Requirements
 <!-- The database needs to be secure by using a hashing algorithm for storing information. The development team will be responsible for adding safeguards to protect hackers from accessing the users IP address. -->
-### 4.4 Software Quality Attributes
+### 5.4 Software Quality Attributes
 <!-- VR-Chess provides an easily accessible experience to users. Being able to access the game very quickly without having to login or anything is an important feature to this software. Being accessible accross devices gives portability value to the software. There is not a steep learning curve for new VR users with this software. It could be advertised as grab and go. -->
