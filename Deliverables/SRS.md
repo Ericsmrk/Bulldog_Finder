@@ -129,22 +129,7 @@ This product functionality overview section provides the hierarchy of the system
    * The application must be developed within the scope of resources offered from Modo Labs.
 
 ## 3 Specific Requirements
-<!-- There are three stages to Vr-Chess: Login, preference selection, and gameplay. Below is a general flowchart of the user experience when running the software.
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/User_Journey.png)
-### 3.1 External Interface Requirements
-### 3.1.1 User Interfaces
-* Landing Page
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Landing_wireframe.png)
-* Google Login
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Google_Login.png)
-* Database Login
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Database_Login.png)
-* Register Account
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Register.png)
-* Change Password
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Password_Reset_Taskflow.png)
-* Chess Board
-![](https://github.com/Ericsmrk/VR-Chess/blob/main/images/Board.png) -->
+
 ### 3.1.1 User Interface
 * High Level requirements - Mockups and Prototype
    * Style Guide
@@ -315,10 +300,54 @@ See SDD
 
 ## 5 Non-Functional Requirements
 ### 5.1 Performance Requirements
-<!-- The performance requirements for VR-Chess relate to the user experiencing any lag when running the software. Care should be taken by the implementation team to make sure the code performs at a rate that will prevent any lag between processes. -->
+* Response Time:
+   * The app must have a fast response time for user interactions such as loading profiles, searching for housing and roommates, and sending and receiving messages. 
+* Scalability and Reliability:
+   * Should be able to respond fast considering the number of users and data, without affecting the performance or response time. 
+      * Sever
+      * Support: User documentation available
+
 ### 5.2 Safety Requirements
-<!-- A notice should be displayed to the user before entering VR about the dangers with epileptic seizures. The user must be notified that the use of the software is at the users own risk.  -->
+* Liability: 
+   * User Safety: Prioritize user safety by providing a secure platform for users to interact and exchange information. The app should have policies and procedures in place to prevent any harmful or inappropriate behavior.
+   * Data Privacy: The app must ensure the privacy and security of user information and interactions. The app should have measures in place to protect user data from unauthorized access. 
 ### 5.3 Security Requirements
-<!-- The database needs to be secure by using a hashing algorithm for storing information. The development team will be responsible for adding safeguards to protect hackers from accessing the users IP address. -->
+* Authentication and Authorization:
+   * Enforced secure authentication and authorization system to ensure that only authorized users have access to their profiles and data through the Google authentication factor (@mail.fresnostate.edu).
+* Access Control:
+   * The app must have access control mechanisms to limit user access to certain features and data based on their roles and permissions.
+* In app messaging: 
+   * Message Integrity: Message cannot be modified when it is on its way
+   * Users can only text about housing and roommate matters, any other topic or if identified non appropriate content, users may get a warning and if such conduct is still happening, the user can have their account banned.  
+
 ### 5.4 Software Quality Attributes
-<!-- VR-Chess provides an easily accessible experience to users. Being able to access the game very quickly without having to login or anything is an important feature to this software. Being accessible accross devices gives portability value to the software. There is not a steep learning curve for new VR users with this software. It could be advertised as grab and go. -->
+* Usability:
+   * User friendly, with an intuitive interface that facilitates user navigation. The design needs to minimize the need for user training or support.
+* Maintainability:
+   * The app must be designed to be easy to maintain and update, with clear documentation and modular code.
+* Portability:
+   * The app can be accessed from different platforms and environments. 
+* Performance Efficiency:
+   * The app must be designed to use system resources efficiently, with minimal memory space usage.
+
+5.5 Quality assurance
+* Requirement Analysis:
+   * Before any testing is performed, the functional requirements of the application are reviewed so that the tester knows the exact features/functionality that need to be tested.
+* UI Prototype Testing:
+   * Before any backend or frontend testing occurred, the prototype for the project was tested so that the tester had a better understanding of how the final product should look like. This helped with the evaluation of the current product state compared to what the team was aiming for.
+* Frontend Testing:
+   * Text: testing was done to verify the alignment, size, and color when rendered on the XModule page.
+   * Buttons and Textboxes: the functionality of any user interface interactables was tested to make sure they worked correctly.
+   * Images: scaling and resolution of images was checked for each XModule page.
+   * XModule Page Rendering: tests were performed to check how each XModule page would render on a mobile device or web browser.
+* Backend Testing: 
+   * Connection to Mysql Database: the first stages of backend testing were verifying the connection between or backend to the Mysql database where our data was stored.
+   * Sign In and User Validation: testing was done to make sure that the backend code for user email and password validation was working correctly.
+   * Sign Up and Account Creation: testing was performed to see if the backend code for account creation was functioning, and checks were made to see if newly created accounts could sign in to our system.
+   * Matching Quiz Results: tests were performed on our backend matching quiz algorithm to make sure it was possible to get either a blue, red, green, or gold color.
+   * Inbox and Messaging: the functionality of user messaging was tested to make sure it was possible for users of our product to send and receive messages.
+   * Edit Profile: testing was performed to verify that a user can update or change information about their account using the edit profile feature.
+   * Edit/Creating Housing or Roomies Listing: various tests were performed to verify that it was possible for a user to create either a housing or roomies listing. After the listing creation, testing was performed to verify that the user could then make changes to the listing they just created.
+* Bug Reporting and Tracking:
+   * Constantly capturing user feedback and reporting to responsible parts. Make sure that application search is suitable for housing options based on Fresno State Students. Also, make sure and compromise to test that the application is safe and user-friendly
+
