@@ -330,7 +330,7 @@ See SDD
 * Performance Efficiency:
    * The app must be designed to use system resources efficiently, with minimal memory space usage.
 
-5.5 Quality assurance
+### 5.5 Quality assurance
 * Requirement Analysis:
    * Before any testing is performed, the functional requirements of the application are reviewed so that the tester knows the exact features/functionality that need to be tested.
 * UI Prototype Testing:
@@ -351,3 +351,10 @@ See SDD
 * Bug Reporting and Tracking:
    * Constantly capturing user feedback and reporting to responsible parts. Make sure that application search is suitable for housing options based on Fresno State Students. Also, make sure and compromise to test that the application is safe and user-friendly
 
+## 6 Appendix
+* Developers must follow good development practices
+   * Clear communication
+   * Respect
+   * Collaborate and Share knowledge
+   * Aim to learn and improve
+   * Maintain Professionalism
