@@ -304,7 +304,7 @@ See SDD
    * The app must have a fast response time for user interactions such as loading profiles, searching for housing and roommates, and sending and receiving messages. 
 * Scalability and Reliability:
    * Should be able to respond fast considering the number of users and data, without affecting the performance or response time. 
-      * Sever
+      * Server
       * Support: User documentation available
 
 ### 5.2 Safety Requirements
