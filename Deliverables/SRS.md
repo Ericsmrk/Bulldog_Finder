@@ -297,7 +297,6 @@ See SDD
    * Color Adjustment
    * Orientation Adjustments 
 
-
 ## 5 Non-Functional Requirements
 ### 5.1 Performance Requirements
 * Response Time:
@@ -330,7 +329,7 @@ See SDD
 * Performance Efficiency:
    * The app must be designed to use system resources efficiently, with minimal memory space usage.
 
-### 5.5 Quality assurance
+### 5.5 Quality Assurance
 * Requirement Analysis:
    * Before any testing is performed, the functional requirements of the application are reviewed so that the tester knows the exact features/functionality that need to be tested.
 * UI Prototype Testing:
