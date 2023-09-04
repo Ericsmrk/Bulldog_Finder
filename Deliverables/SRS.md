@@ -216,7 +216,7 @@ See SDD
    * Forgot Password option to request a new password.
    * Option to continue as Guest	
    * Sign Up option
-   * 4.3 Sign Up
+* 4.3 Sign Up
    * Input user’s name, email, and password for account creation. This will additionally utilize the Google authentication factor (@mail.fresnostate.edu) 
    * Option to navigate back to the Sign In Screen
    * After Account is verified user will be directed to Sign In (4.2) to Log in and will directed after the login to the Welcome screen
@@ -264,7 +264,7 @@ See SDD
    * Blocked: View of user card blocked
    * Support: How to use the app / Documentation
    * About: About the application and Developers / Sponsors
-* 5.12 Search bar
+* 4.12 Search bar
    * Present in Guest and Fresno State Student
    * Search by keywords: Major, Graduation Year
    * Location (Miles): 1-15+ miles - Slider control
